@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Server:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e97317e-82c1-415a-945c-3745348843cf" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cP3c7cF0JyBZcfL2p9jZO7rKbz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/code" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Schule\Fachhochschule Schmalkhalden\5. Semester\PI\Quellcode\Server\src\resources" />
+      <recent name="F:\Schule\Fachhochschule Schmalkhalden\5. Semester\PI\Quellcode\Server\src\code" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Schule\Fachhochschule Schmalkhalden\5. Semester\PI\Quellcode\Server\src\code" />
+      <recent name="F:\Schule\Fachhochschule Schmalkhalden\5. Semester\PI\Quellcode\Server\src\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.StartServerGui">
+    <configuration name="StartServerGui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="code.StartServerGui" />
+      <module name="Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConsoleClient.client" />
+      <module name="Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ConsoleClient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.StartServerGui" />
+      <item itemvalue="Application.client" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StartServerGui" />
+        <item itemvalue="Application.client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e97317e-82c1-415a-945c-3745348843cf" name="Default Changelist" comment="" />
+      <created>1590416477309</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590416477309</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="375" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591013381090">
+      <screen x="0" y="0" width="1842" height="1036" />
+    </state>
+    <state x="375" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1842.1036@0.0.1842.1036" timestamp="1591013381090" />
+    <state x="726" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1590591720252">
+      <screen x="0" y="0" width="1842" height="1036" />
+    </state>
+    <state x="726" y="227" key="#com.intellij.ide.util.MemberChooser/0.0.1842.1036@0.0.1842.1036" timestamp="1590591720252" />
+    <state x="652" y="247" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1591001858026">
+      <screen x="0" y="0" width="1842" height="1036" />
+    </state>
+    <state x="652" y="247" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1842.1036@0.0.1842.1036" timestamp="1591001858026" />
+    <state x="651" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591015474125">
+      <screen x="0" y="0" width="1842" height="1036" />
+    </state>
+    <state x="651" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1842.1036@0.0.1842.1036" timestamp="1591015474125" />
+    <state x="676" y="179" key="DetectedRootsChooserDialog" timestamp="1590416912820">
+      <screen x="0" y="0" width="1842" height="1036" />
+    </state>
+    <state x="676" y="179" key="DetectedRootsChooserDialog/0.0.1842.1036@0.0.1842.1036" timestamp="1590416912820" />
+    <state x="701" y="273" key="FileChooserDialogImpl" timestamp="1591521452934">
+      <screen x="0" y="0" width="1842" height="1036" />
+    </state>
+    <state x="701" y="273" key="FileChooserDialogImpl/0.0.1842.1036@0.0.1842.1036" timestamp="1591521452934" />
+    <state width="1799" height="277" key="GridCell.Tab.0.bottom" timestamp="1591959739901">
+      <screen x="0" y="0" width="1842" height="1036" />
+    </state>
+    <state width="1799" height="277" key="GridCell.Tab.0.bottom/0.0.1842.1036@0.0.1842.1036" timestamp="1591959739901" />
+    <state width="1799" height="277" key="GridCell.Tab.0.center" timestamp="1591959739901">
+      <screen x="0" y="0" width="1842" height="1036" />
+    </state>
+    <state width="1799" height="277" key="GridCell.Tab.0.center/0.0.1842.1036@0.0.1842.1036" timestamp="1591959739901" />
+    <state width="1799" height="277" key="GridCell.Tab.0.left" timestamp="1591959739901">
+      <screen x="0" y="0" width="1842" height="1036" />
+    </state>
+    <state width="1799" height="277" key="GridCell.Tab.0.left/0.0.1842.1036@0.0.1842.1036" timestamp="1591959739901" />
+    <state width="1799" height="277" key="GridCell.Tab.0.right" timestamp="1591959739901">
+      <screen x="0" y="0" width="1842" height="1036" />
+    </state>
+    <state width="1799" height="277" key="GridCell.Tab.0.right/0.0.1842.1036@0.0.1842.1036" timestamp="1591959739901" />
+    <state x="402" y="38" key="SettingsEditor" timestamp="1591001861955">
+      <screen x="0" y="0" width="1842" height="1036" />
+    </state>
+    <state x="402" y="38" key="SettingsEditor/0.0.1842.1036@0.0.1842.1036" timestamp="1591001861955" />
+    <state x="617" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1591779059847">
+      <screen x="0" y="0" width="1842" height="1036" />
+    </state>
+    <state x="617" y="342" key="com.intellij.ide.util.TipDialog/0.0.1842.1036@0.0.1842.1036" timestamp="1591779059847" />
+    <state x="303" y="220" key="new project wizard" timestamp="1591947147985">
+      <screen x="0" y="0" width="1842" height="1036" />
+    </state>
+    <state x="303" y="220" key="new project wizard/0.0.1842.1036@0.0.1842.1036" timestamp="1591947147985" />
+  </component>
+</project>

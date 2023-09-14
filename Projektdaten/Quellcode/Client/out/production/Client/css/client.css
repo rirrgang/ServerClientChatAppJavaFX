@@ -1,0 +1,178 @@
+.menuLightMode{
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #17EAD9, #6078EA);
+    /*-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #8a2387, #e94457, #f27121);*/
+    /*-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #b92b27, #1565c0);*/
+    /*-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #BAD3FC, #81F3F3);*/
+    /*-fx-background-color : white;*/
+}
+
+.menuDarkMode{
+    /*-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #424242, #5e5e5e);*/
+    /*-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #8a2387, #e94457, #f27121);*/
+    /*-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #b92b27, #1565c0);*/
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #17EAD9, #6078EA);
+}
+
+.viewport{
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #FCE3BA, #F38181);
+    /*-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #2d2d2d, #414345);*/
+    /*-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #498afc, #565656);*/
+    /*-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #F8EA8C, #E1C340);*/
+    /*-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #424242, #5e5e5e);*/
+    /*-fx-background-color: linear-gradient(from 25% 25% to 100% 100%, white, lightgray);*/
+}
+
+.viewportDarkMode{
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #414345, #2d2d2d);
+}
+
+.footer{
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #5e5e5e, #424242);
+}
+
+.background{
+    -fx-background-color: transparent;
+}
+
+.buttons{
+    -fx-background-color: linear-gradient(from 100% 100% to 0% 0%, #17EAD9, #6078EA);
+    -fx-text-fill: white;
+    -fx-font-weight:bold;
+    -fx-font-family: arial;
+    -fx-border-color:white;
+    -fx-border-radius: 3px;
+    -fx-border-width: 1px;
+    -fx-cursor: hand;
+}
+
+.buttons .text{
+    -fx-effect: dropshadow( one-pass-box , gray , 2 , 2 , 1 , 0 );
+    -fx-font-weight: bold;
+}
+
+.buttons:hover{
+    -fx-background-color: linear-gradient(from 100% 100% to 0% 0%, #14ccbc, #4557a5);
+}
+
+.buttons:pressed{
+    -fx-background-color: linear-gradient(from 100% 100% to 0% 0%, #17ead5, #5871d3);
+}
+
+.button{
+    -fx-cursor: hand;
+}
+
+.menuButtons:hover{
+    -fx-background-color: rgb(255,255,255,0.7);
+}
+
+.menuButtons{
+    -fx-background-color: transparent;
+}
+
+.menuButtons:pressed{
+    -fx-background-color: rgb(255,255,255,0.9);
+}
+
+.radioButtons{
+    -fx-text-fill: white;
+}
+
+.radioButtons .text{
+    -fx-effect: dropshadow( one-pass-box , gray , 1 , 1 , 1 , 1 );
+    -fx-font-family: arial;
+    -fx-font-weight: bold;
+}
+
+.radioButtons .radio{
+    -fx-effect: dropshadow( one-pass-box , gray , 1 , 1 , 1 , 1 );
+    -fx-background-color: transparent;
+    -fx-border-color : white;
+    -fx-border-radius: 30px;
+    -fx-border-width: 2px;
+
+}
+
+.radioButtons:selected .radio{
+    -fx-border-color:#1dbcd1;
+}
+
+.radioButtons:selected .dot{
+    -fx-background-color:#1dbcd1;
+}
+
+.radioButtons .radio:hover{
+    -fx-cursor: hand;
+}
+
+.radioButtons .dot {
+    -fx-padding: 5px;
+    -fx-border-radius: 30px;
+    -fx-background-radius: 30px;
+ }
+
+
+
+.label{
+    -fx-effect: dropshadow( one-pass-box , gray , 3 , 3 , 1 , 1 );
+    -fx-text-fill: white;
+}
+
+
+
+
+
+.chatArea{
+    -fx-control-inner-background: white;
+    -fx-text-fill: black;
+    -fx-border-insets: 0, 1;
+    -fx-background-radius: 3, 2;
+    -fx-border-radius: 3, 2;
+}
+
+.chatArea:focused{
+    -fx-border-color: #6078EA;
+}
+
+.chatAreaDarkMode{
+    -fx-control-inner-background: black;
+    -fx-text-fill: white;
+    -fx-border-insets: 0, 1;
+    -fx-background-radius: 3, 2;
+    -fx-border-radius: 3, 2;
+    -fx-highlight-fill:white;
+}
+
+.chatAreaDarkMode:focused{
+    -fx-highlight-fill: #6078EA;
+}
+
+.textField{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-border-color: lightgray;
+    -fx-border-insets: 0, 1;
+    -fx-background-radius: 3, 2;
+    -fx-border-radius: 3, 2;
+    -fx-padding: 0.333333em 0.583em 0.333333em 0.583em; /* 4 7 4 7 */
+    -fx-cursor: text;
+}
+
+.textField:focused{
+    -fx-border-color: #6078EA;
+}
+
+.textFieldDarkMode{
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-insets: 0, 1;
+    -fx-background-radius: 3, 2;
+    -fx-border-radius: 3, 2;
+    -fx-padding: 0.333333em 0.583em 0.333333em 0.583em; /* 4 7 4 7 */
+    -fx-cursor: text;
+}
+
+.textFieldDarkMode:focused{
+    -fx-border-color: #6078EA;
+}

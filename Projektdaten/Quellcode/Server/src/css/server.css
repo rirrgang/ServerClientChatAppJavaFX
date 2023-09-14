@@ -1,0 +1,95 @@
+.borders{
+    -fx-border-color: white;
+    -fx-border-style: hidden hidden solid hidden;
+}
+
+
+.menu{
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #f5af19, #ff6a26);
+}
+
+.viewport{
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #414345, #2d2d2d);
+}
+
+.background{
+    -fx-background-color: transparent;
+}
+
+.button{
+    -fx-cursor: hand;
+}
+
+.buttons{
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #ff6a26, #f5af19);
+    -fx-border-radius: 3px;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+}
+
+.buttons .text{
+    -fx-effect: dropshadow( one-pass-box , gray , 2 , 2 , 1 , 0 );
+    -fx-font-weight: bold;
+}
+
+.buttons:hover{
+    -fx-background-color: linear-gradient(from 100% 100% to 0% 0%, #c48a15, #c95020);
+}
+
+.buttons:pressed{
+    -fx-background-color: linear-gradient(from 100% 100% to 0% 0%, #e8a31b, #e25a24);
+}
+
+.menuButtons{
+    -fx-background-color: transparent;
+}
+
+.menuButtons:hover{
+    -fx-background-color: rgb(255,255,255,0.5);
+}
+
+.menuButtons:pressed{
+    -fx-background-color: rgb(255,255,255,0.7);
+}
+
+
+
+.label{
+    -fx-effect: dropshadow( one-pass-box , gray , 2 , 2 , 1 , 0 );
+    -fx-text-fill: white;
+}
+
+.footer{
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #5e5e5e, #424242);
+}
+
+.slider .axis .axis-tick-mark,
+.slider .axis .axis-minor-tick-mark,
+.slider .axis{
+    -fx-stroke: white;
+    -fx-tick-label-fill: white;
+    -fx-tick-label-font-size: 13px;
+}
+
+.slider .thumb{
+    -fx-background-color: rgb(114, 114, 114, 1);
+    -fx-background-radius: 20;
+    -fx-border-color: black;
+    -fx-border-radius: 10;
+    -fx-border-width: 2;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+    -fx-cursor: hand;
+}
+
+.slider .thumb:hover{
+    -fx-background-color: rgb(114, 114, 114, 0.7);
+}
+
+.slider .thumb:pressed{
+    -fx-background-color: rgb(114, 114, 114, 0.5);
+}
+
+.slider .track{
+    -fx-background-color: linear-gradient(from 25% 25%  to 100% 100%, #91ff56, #ff6a26);
+}
+

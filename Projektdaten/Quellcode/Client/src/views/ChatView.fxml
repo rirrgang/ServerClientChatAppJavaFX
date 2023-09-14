@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="410.0" prefWidth="600.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="controllers.ChatViewController">
+   <children>
+      <TextArea fx:id="chatTextArea" editable="false" layoutX="34.0" layoutY="32.0" prefHeight="324.0" prefWidth="366.0" styleClass="chatArea" stylesheets="@../css/client.css" AnchorPane.bottomAnchor="64.0" AnchorPane.leftAnchor="32.0" AnchorPane.rightAnchor="32.0" AnchorPane.topAnchor="64.0" />
+      <TextField fx:id="chatInputTextField" layoutX="32.0" layoutY="361.0" prefHeight="25.0" prefWidth="450.0" styleClass="textField" stylesheets="@../css/client.css" AnchorPane.bottomAnchor="32.0" />
+      <Button fx:id="sendMessageBtn" mnemonicParsing="false" prefHeight="26.0" prefWidth="80.0" styleClass="buttons" stylesheets="@../css/client.css" text="Senden" AnchorPane.bottomAnchor="32.0" AnchorPane.rightAnchor="32.0" />
+      <Button fx:id="clearTextAreaBtn" mnemonicParsing="false" prefHeight="26.0" prefWidth="80.0" styleClass="buttons" stylesheets="@../css/client.css" text="Löschen" AnchorPane.rightAnchor="32.0" AnchorPane.topAnchor="32.0" />
+   </children>
+</AnchorPane>

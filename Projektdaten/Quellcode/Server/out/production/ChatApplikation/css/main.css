@@ -1,0 +1,8 @@
+.mainWindow{
+    -fx-background-color: #4C1A47;
+}
+
+.borders{
+    -fx-border-color: white;
+    -fx-border-style: hidden hidden solid hidden;
+}

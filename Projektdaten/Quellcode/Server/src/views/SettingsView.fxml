@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="480.0" styleClass="background" stylesheets="@../css/server.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="controllers.SettingsViewController">
+   <children>
+      <VBox layoutX="16.0" layoutY="14.0" prefHeight="400.0" prefWidth="480.0" spacing="16.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="16.0">
+         <children>
+            <VBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="420.0" spacing="16.0">
+               <children>
+                  <Label text="Geben Sie hier die Server-IP ein:">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="ipTextField" prefHeight="25.0" prefWidth="430.0" />
+               </children>
+               <VBox.margin>
+                  <Insets left="32.0" right="32.0" />
+               </VBox.margin>
+            </VBox>
+            <VBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="420.0" spacing="16.0">
+               <children>
+                  <Label text="Geben Sie hier den Server-Port ein:">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="portTextField" prefHeight="25.0" prefWidth="430.0" />
+               </children>
+               <VBox.margin>
+                  <Insets left="32.0" right="32.0" />
+               </VBox.margin>
+            </VBox>
+            <VBox prefHeight="100.0" prefWidth="420.0" spacing="16.0">
+               <children>
+                  <Label text="Geben Sie hier die Anzahl der Clients an:">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Slider fx:id="clientSlider" blockIncrement="1.0" majorTickUnit="1.0" max="10.0" min="2.0" minorTickCount="0" showTickLabels="true" showTickMarks="true" snapToTicks="true" value="2.0" />
+               </children>
+               <VBox.margin>
+                  <Insets left="32.0" right="32.0" />
+               </VBox.margin>
+            </VBox>
+         </children>
+      </VBox>
+      <Button fx:id="saveSettingsBtn" mnemonicParsing="false" prefHeight="26.0" prefWidth="80.0" styleClass="buttons" text="Speichern" AnchorPane.bottomAnchor="32.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="200.0" />
+   </children>
+</AnchorPane>

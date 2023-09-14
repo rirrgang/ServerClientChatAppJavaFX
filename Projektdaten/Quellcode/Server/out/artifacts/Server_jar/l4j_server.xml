@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>F:\Schule\Fachhochschule Schmalkhalden\5. Semester\PI\Quellcode\Server\out\artifacts\Server_jar\Server.jar</jar>
+  <outfile>F:\Schule\Fachhochschule Schmalkhalden\5. Semester\PI\Quellcode\Server\out\artifacts\Server_jar\Server.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>F:\Schule\Fachhochschule Schmalkhalden\5. Semester\PI\Quellcode\Server\out\artifacts\Server_jar\icons8-thin-client-64.ico</icon>
+  <singleInstance>
+    <mutexName>Server</mutexName>
+    <windowTitle></windowTitle>
+  </singleInstance>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.8</minVersion>
+    <maxVersion>1.9</maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>v1.0.0.0</txtFileVersion>
+    <fileDescription>Chat-Server</fileDescription>
+    <copyright>Robert Irrgang</copyright>
+    <productVersion>1.0.0.0</productVersion>
+    <txtProductVersion>v1.0.0.0</txtProductVersion>
+    <productName>Chat-Server</productName>
+    <companyName></companyName>
+    <internalName>Server</internalName>
+    <originalFilename>Server.exe</originalFilename>
+    <trademarks></trademarks>
+    <language>GERMAN</language>
+  </versionInfo>
+</launch4jConfig>
